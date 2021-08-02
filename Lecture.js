@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { createRenderer } from 'react-dom/test-utils';
 
 // extends React.Component
 const App = () => {
@@ -32,3 +33,15 @@ const App = () => {
 }
 
 export default App;
+
+// 2013 React was created to make pieces of the website work together
+// 2015 Classes are introduced
+// 2017 components were introduced 15.4 smaller components
+// 2019 16.8 Hooks were added that allow lifecycle methods
+
+// Why learn 2015?
+// - Technology has a long tail, it takes a lot of time to implement new technology
+// - Its expensive to convert everything and you
+// -- already have an app that is running
+// BACKWARD COMPATIBLE -> you may need to work on older tech
+
